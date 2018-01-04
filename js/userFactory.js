@@ -11,5 +11,6 @@ module.exports.getUsers = (selectedUser) => {
         let selectedUserData = usersArr.filter((user) => {
             return user.name === selectedUser;
         })[0];
+        console.log(selectedUserData);  
     });
 };
